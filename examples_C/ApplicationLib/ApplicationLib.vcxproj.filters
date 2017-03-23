@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CircularBuffer.cpp" />
+    <ClCompile Include="EventDispatcher.cpp" />
+    <ClCompile Include="hello.c" />
+    <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="src\Stack_a.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\assert.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mem.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\except.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\atom.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CircularBuffer.h" />
+    <ClInclude Include="EventDispatcher.h" />
+    <ClInclude Include="hello.h" />
+    <ClInclude Include="Printer.h" />
+    <ClInclude Include="inc\Stack_a.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\atom.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c52623e5-bb3d-4bc7-bcbd-cce460eeb8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{7f4e4b82-6966-4892-8d7c-5b34f6ced4cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
